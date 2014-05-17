@@ -1,7 +1,7 @@
 import java.util.HashMap;
 import java.util.Map;
 
-public class SingleNumber {
+public class Solution {
     public int singleNumber(int[] A) {
     	Map<Integer, Character> map = new HashMap<Integer, Character>();
     	for (int a : A) {
@@ -15,9 +15,4 @@ public class SingleNumber {
 		}
         return 0;
     }
-    
-    public static void main(String[] args) {
-		int[] A = {1,2,3,1,2,8,9,8,3};
-		System.out.println(new SingleNumber().singleNumber(A));
-	}
 }

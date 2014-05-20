@@ -11,3 +11,5 @@ This is the solutions set of the LeetCode Website's problems.
 ## Notes
 - Climbing Stairs
   - 一开始用传统的递归解题，结果TL了。看了下Dscuss，搜索了一下，发现这道居然就是典型的动态规划题，用哈希把子问题的答案记录了就能节省大量的运行时间。
+- Linked List Cycle
+  - 判断链表是否有环。通过快慢节点可以简单实现。

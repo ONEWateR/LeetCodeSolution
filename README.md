@@ -13,3 +13,12 @@ This is the solutions set of the LeetCode Website's problems.
   - 一开始用传统的递归解题，结果TL了。看了下Dscuss，搜索了一下，发现这道居然就是典型的动态规划题，用哈希把子问题的答案记录了就能节省大量的运行时间。
 - Linked List Cycle
   - 判断链表是否有环。通过快慢节点可以简单实现。
+- Unique Binary Search Trees 
+  - 本题参考了http://cs.lmu.edu/~ray/notes/binarytrees/里面的*How Many Binary Trees Are There?*章节。
+  - The first few terms:
+      - C(0) = 1
+      - C(1) = C(0)C(0) = 1
+      - C(2) = C(0)C(1) + C(1)C(0) = 2
+      - C(3) = C(0)C(2) + C(1)C(1) + C(2)C(0) = 5
+      - C(4) = C(0)C(3) + C(1)C(2) + C(2)C(1) + C(3)C(0) = 14
+  - 基本思路跟爬楼梯的题目一样。递归并记录之前求解的结果。

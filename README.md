@@ -22,3 +22,5 @@ This is the solutions set of the LeetCode Website's problems.
       - C(3) = C(0)C(2) + C(1)C(1) + C(2)C(0) = 5
       - C(4) = C(0)C(3) + C(1)C(2) + C(2)C(1) + C(3)C(0) = 14
   - 基本思路跟爬楼梯的题目一样。递归并记录之前求解的结果。
+- Populating Next Right Pointers in Each Node 
+  - 一开始的解题思路是分层遍历连接next，后面觉得这方法无论是空间还是时间都是一个问题。其实真正的难点无非在5->6这里，只需判断*root.next != null* 就差不多了。

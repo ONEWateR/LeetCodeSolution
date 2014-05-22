@@ -14,7 +14,7 @@ This is the solutions set of the LeetCode Website's problems.
 - Linked List Cycle
   - 判断链表是否有环。通过快慢节点可以简单实现。
 - Unique Binary Search Trees 
-  - 本题参考了http://cs.lmu.edu/~ray/notes/binarytrees/里面的*How Many Binary Trees Are There?*章节。
+  - 本题参考了 http://cs.lmu.edu/~ray/notes/binarytrees/ 里面的*How Many Binary Trees Are There?*章节。
   - The first few terms:
       - C(0) = 1
       - C(1) = C(0)C(0) = 1
